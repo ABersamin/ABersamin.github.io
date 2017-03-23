@@ -1,0 +1,172 @@
+/*Aaron Bersamin Period 4*/
+/*
+#E0BB07
+#650C96
+#143B96
+#000B23
+#FCFCFC
+*/
+body {
+	font-size:1em;
+	font-weight: normal;
+	font-family: Arial, helvetica, Sans-serif;
+	color:#000000;/*black*/
+	text-align: left; 
+	width: 900px;
+	background: #ffff80;
+	padding: 1em;
+	margin: 0 auto;
+	width: 80%;
+	min-width: 720px;
+	background-image: url(http://kivntos.com/wp-content/uploads/2014/04/1606155.jpg)
+}
+h1, h2, h3 {
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #0000ff;/*blue*/
+	text-align: left;
+	background: #3399ff;
+	padding: 10px;
+	margin: 10px;
+	border: 5px solid #000;
+	width: 80%; 
+	margin-bottom: 1.5em;
+}
+h2 {
+	font-size:3em; 
+	font-weight:normal;
+	font-family:Arial, Sans-serif;
+	color:#24e2b9;
+	text-align:center;
+	background: #3399ff;
+	padding: 10px;
+	margin: 10px;
+	border: 5px solid #000;
+	width: 80%;
+
+   }
+div {
+	font-size:1em;
+	font-weight:normal;
+	font-family:Arial, Sans-serif;
+	color:#ff2121;
+	text-align:left;
+	padding: 1em;
+	margin: 10px;
+	
+
+}
+ul { 
+	list-style-type: none;
+}
+
+p {
+	margin: 1em;
+	width: 80%; 
+}
+table{
+	background-color:black;
+}
+th, td{
+	background-color:white;
+	color: black;
+	padding: .75em;
+	margin: 1px;
+}
+caption{
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: .75em;
+}
+/* nav fixes are here */
+nav {
+	clear:left; 
+	padding-bottom: 0.25em; 
+}
+nav ul { 
+	list-style-type: none;
+	padding-bottom: inherit;
+}
+nav ul li { 
+	float: left;
+	margin-right: 0.5em;
+}
+
+a { 
+    color: black;
+    background-color: white;
+  }
+  nav ul li a {
+  	 padding: 0.25em 1em;
+  	text-decoration: none; 
+  	background-color: #EBF5FF; /* pale bluish white */
+  	color: #4312AE; 
+  	border: 2px solid black;
+  	border-top-left-radius: 1em 1em; 
+  	border-top-right-radius: 1em 1em; 
+  }
+  nav ul li a:hover, nav ul li a:focus { 
+  	color: black;
+  	background-color: white;
+  	font-weight:bold;
+  }
+  
+  main {
+  	clear: left;
+  	padding: 1em;
+ }
+
+  a:hover { 
+    color: white;
+    background-color: black;
+  } 
+
+div#skipnav {
+	position: relative;
+	right: 12.5%;
+	top: 5px;
+	left: 5px;
+	width: 10em;
+	text-align: center;
+
+}
+div.info{
+	width: 40%;
+    font-size: 1.2em;
+    float: left;
+}
+div#main, div#main p {
+color: black;
+background-color: white;
+font-style: normal;
+}
+div#main p {
+margin-left: 2em;
+}
+div#main p#overview {
+margin-left: 1em;
+font-size: 1.1em;
+}
+div#main p.temp {
+font-style: italic;
+}
+button { 
+    font-size: 1.1em;
+    background-color: #EBF5FF;
+    color: #4312AE;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+  }
+  button:hover, button:focus, button:active { 
+    /* swap colors */
+    color: #EBF5FF;
+    background-color: #4312AE;
+    cursor: pointer; /* displays a hand */
+  }
+  div#clock {
+  	text-align: center;
+  	margin: 1em;
+  	font-size: 12px;
+  	padding: 1em; 
+  	color: black;
+  }
